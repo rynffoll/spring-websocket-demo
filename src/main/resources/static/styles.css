@@ -1,0 +1,28 @@
+body {
+    background-color: #eee8d5;
+}
+
+.chat {
+    position: relative;
+    height: 600px;
+}
+
+.message, #input, button {
+    background-color: #fdf6e3;
+    color: #657b83;
+    border: 1pt solid #93a1a1;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 5pt 5pt 8pt #eee8d5;
+}
+
+form {
+    position: absolute;
+    bottom: 0;
+}
+
+#history {
+    overflow: auto;
+    height: 90%;
+}
+
